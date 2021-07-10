@@ -1,2 +1,2 @@
 # random_scripts
-random tools that's I've written through time.
+random tools that's I've written.
