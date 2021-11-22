@@ -6,8 +6,8 @@ import schedule
 import time
 
 def send_msg(msg1, msg2):
-    token = "2109415764:AAHl9LnT3ZkyLTsEYE5j258GGcgH7oGYGxA"
-    chat_id = "1256010126"
+    token = ""
+    chat_id = ""
     url_req = "https://api.telegram.org/bot"+ token +"/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg1 + "\n" + msg2
     results = requests.get(url_req)
     #print(results.json())
